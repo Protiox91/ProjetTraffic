@@ -193,7 +193,6 @@ from tracks_import import read_from_csv, read_all_recordings_from_csv
 ### Racine
 - `ARCHITECTURE.md` : description technique du pipeline et des formats de datasets.
 - `yolo26s.pt` : poids YOLO (utilisable avec les scripts YOLO).
-- `.DS_Store` : fichier systeme macOS (peut etre ignore).
 
 ### `Codes/`
 - `Codes/visualisation.py` : visualisation multi-datasets (highD, inD, rounD, uniD, exiD).
@@ -204,94 +203,13 @@ from tracks_import import read_from_csv, read_all_recordings_from_csv
 - `Codes/readme.txt` : note rapide sur le chemin `BASE_DIR` et le `RECORDING_ID`.
 - `Codes/Tutoriel dataset Matlab.pdf` : tuto PDF (dataset MATLAB).
 
-### `Datasets/`
-- `Datasets/.DS_Store` : fichier systeme macOS.
-- `Datasets/exports/.DS_Store` : dossier d'exports (vide, fichier systeme).
-
-#### `Datasets/4W_DorKoh_Trajectory_Sample/`
-- `Datasets/4W_DorKoh_Trajectory_Sample/20220602_100001_Koh_Dor_4W_d_1.txt` : metadonnees du sample.
-- `Datasets/4W_DorKoh_Trajectory_Sample/20220602_100001_Koh_Dor_4W_d_1_poi.csv` : points d'interet (POI).
-- `Datasets/4W_DorKoh_Trajectory_Sample/20220602_100001_Koh_Dor_4W_d_1_1_ann.tlgx` : trajectoires brutes DataFromSky.
-- `Datasets/4W_DorKoh_Trajectory_Sample/20220602_100001_Koh_Dor_4W_d_1_1_ann.csv` : trajectoires annotees CSV.
-- `Datasets/4W_DorKoh_Trajectory_Sample/Readme.txt` : description du sample et licence.
-
-#### `Datasets/highD-dataset-v1.0/` (raccourcis / docs)
-- `Datasets/highD-dataset-v1.0/highD Dataset.URL` : raccourci vers le site highD.
-- `Datasets/highD-dataset-v1.0/File Format Description.url` : description du format highD.
-- `Datasets/highD-dataset-v1.0/HighD Tools.url` : outils highD officiels.
-- `Datasets/highD-dataset-v1.0/inD Dataset.URL` : raccourci vers inD.
-- `Datasets/highD-dataset-v1.0/rounD Dataset.URL` : raccourci vers rounD.
-- `Datasets/highD-dataset-v1.0/levelXdata.url` : raccourci vers LevelXData.
-- `Datasets/highD-dataset-v1.0/Changelog.txt` : historique des changements.
-
-#### `Datasets/inD-dataset-v1.1/` (raccourcis / docs)
-- `Datasets/inD-dataset-v1.1/inD Dataset.URL` : raccourci vers inD.
-- `Datasets/inD-dataset-v1.1/exiD Dataset.URL` : raccourci vers exiD.
-- `Datasets/inD-dataset-v1.1/rounD Dataset.URL` : raccourci vers rounD.
-- `Datasets/inD-dataset-v1.1/uniD Dataset.URL` : raccourci vers uniD.
-- `Datasets/inD-dataset-v1.1/highD Dataset.URL` : raccourci vers highD.
-- `Datasets/inD-dataset-v1.1/Dataset Tools.URL` : raccourci vers les outils.
-- `Datasets/inD-dataset-v1.1/levelXdata.URL` : raccourci vers LevelXData.
-- `Datasets/inD-dataset-v1.1/LICENSE` : licence du dataset.
-- `Datasets/inD-dataset-v1.1/changes.txt` : notes de version.
-
-#### `Datasets/round-dataset-v1.1/` (raccourcis / docs)
-- `Datasets/round-dataset-v1.1/rounD Dataset.URL` : raccourci vers rounD.
-- `Datasets/round-dataset-v1.1/inD Dataset.URL` : raccourci vers inD.
-- `Datasets/round-dataset-v1.1/exiD Dataset.URL` : raccourci vers exiD.
-- `Datasets/round-dataset-v1.1/uniD Dataset.URL` : raccourci vers uniD.
-- `Datasets/round-dataset-v1.1/highD Dataset.URL` : raccourci vers highD.
-- `Datasets/round-dataset-v1.1/Dataset Tools.URL` : raccourci vers les outils.
-- `Datasets/round-dataset-v1.1/levelXdata.URL` : raccourci vers LevelXData.
-- `Datasets/round-dataset-v1.1/LICENSE` : licence du dataset.
-- `Datasets/round-dataset-v1.1/changes.txt` : notes de version.
-
-#### `Datasets/uniD-dataset-v1.1/` (raccourcis / docs)
-- `Datasets/uniD-dataset-v1.1/uniD Dataset.URL` : raccourci vers uniD.
-- `Datasets/uniD-dataset-v1.1/inD Dataset.URL` : raccourci vers inD.
-- `Datasets/uniD-dataset-v1.1/exiD Dataset.URL` : raccourci vers exiD.
-- `Datasets/uniD-dataset-v1.1/rounD Dataset.URL` : raccourci vers rounD.
-- `Datasets/uniD-dataset-v1.1/highD Dataset.URL` : raccourci vers highD.
-- `Datasets/uniD-dataset-v1.1/Dataset Tools.URL` : raccourci vers les outils.
-- `Datasets/uniD-dataset-v1.1/levelXdata.URL` : raccourci vers LevelXData.
-- `Datasets/uniD-dataset-v1.1/LICENSE` : licence du dataset.
-- `Datasets/uniD-dataset-v1.1/changes.txt` : notes de version.
-
-#### `Datasets/exiD-dataset-v2.1/` (raccourcis / docs)
-- `Datasets/exiD-dataset-v2.1/exiD Dataset.URL` : raccourci vers exiD.
-- `Datasets/exiD-dataset-v2.1/inD Dataset.URL` : raccourci vers inD.
-- `Datasets/exiD-dataset-v2.1/rounD Dataset.URL` : raccourci vers rounD.
-- `Datasets/exiD-dataset-v2.1/uniD Dataset.URL` : raccourci vers uniD.
-- `Datasets/exiD-dataset-v2.1/highD Dataset.URL` : raccourci vers highD.
-- `Datasets/exiD-dataset-v2.1/Dataset Tools.URL` : raccourci vers les outils.
-- `Datasets/exiD-dataset-v2.1/levelXdata.URL` : raccourci vers LevelXData.
-- `Datasets/exiD-dataset-v2.1/LICENSE` : licence du dataset.
-- `Datasets/exiD-dataset-v2.1/changelog.txt` : historique des changements.
-
 ### `DatasetsVideo/`
 - `DatasetsVideo/liens.txt` : **tous les liens vers datasets video et ressources**.
-- `DatasetsVideo/DJI_0066.MP4` : video drone (exemple local).
-- `DatasetsVideo/DJI_0086.MP4` : video drone (exemple local).
-- `DatasetsVideo/DJI_0093.MP4` : video drone (exemple local).
-- `DatasetsVideo/DJI_0102.MP4` : video drone (exemple local).
-- `DatasetsVideo/DJI_0103.MP4` : video drone (exemple local).
-- `DatasetsVideo/DJI_0142.MP4` : video drone (exemple local).
-- `DatasetsVideo/DJI_0025_cut1.Mp4` : extrait video (sample).
-- `DatasetsVideo/UAV-benchmark-S.zip` : archive de dataset UAV (benchmark).
-- `DatasetsVideo/.DS_Store` : fichier systeme macOS.
-
-### `ExemplesVideos/`
-- `ExemplesVideos/Capture d’écran 2026-01-27 à 16.05.47.png` : capture d'ecran (exemple).
-- `ExemplesVideos/Capture d’écran 2026-01-27 à 16.06.08.png` : capture d'ecran (exemple).
-- `ExemplesVideos/Capture d’écran 2026-01-27 à 16.06.34.png` : capture d'ecran (exemple).
 
 ### `Outputs/`
 - `Outputs/DJI_0025_cut1_car_traj.mp4` : exemple de sortie (trajectoires YOLO).
 - `Outputs/20220602_100001_Koh_Dor_4W_d_1_1_org_sample_car_traj.mp4` : autre exemple de sortie.
 - `Outputs/.DS_Store` : fichier systeme macOS.
-
-### `VisualisationGIT/` (outils externes embarques)
-- `VisualisationGIT/.DS_Store` : fichier systeme macOS.
 
 #### `VisualisationGIT/highD-dataset-master/`
 - `VisualisationGIT/highD-dataset-master/README.md` : README officiel highD tools.
